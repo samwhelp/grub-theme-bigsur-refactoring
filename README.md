@@ -118,19 +118,19 @@ sudo grub-mkconfig -o /boot/grub/grub.cfg
 
 ## Styled Boxes
 
-| Region            | Region        | Region             |
-| ----------------- | ------------- | ------------------ |
-| 1. Northwest (nw) | 2. North (n)  | 3. Northeast (ne)  |
-| 4. West (w)       | 5. Center (c) | 6. East (e)        |
-| 7. Southwest (sw) | 8. South (s)  | 9. Southeast (se)  |
+| Region              | Region          | Region              |
+| ------------------- | --------------- | ------------------- |
+| 1. Northwest (`nw`) | 2. North (`n`)  | 3. Northeast (`ne`) |
+| 4. West (`w`)       | 5. Center (`c`) | 6. East (`e`)       |
+| 7. Southwest (`sw`) | 8. South (`s`)  | 9. Southeast (`se`) |
 
 > menu-box file name
 
-| Region             | Region            | Region             |
-| ------------------ | ----------------- | ------------------ |
-| 1. menu-box-nw.png | 2. menu-box-n.png | 3. menu-box-ne.png |
-| 4. menu-box-w.png  | 5. menu-box-c.png | 6. menu-box-e.png  |
-| 7. menu-box-sw.png | 8. menu-box-s.png | 9. menu-box-se.png |
+| Region               | Region              | Region               |
+| -------------------- | ------------------- | -------------------- |
+| 1. `menu-box-nw.png` | 2. `menu-box-n.png` | 3. `menu-box-ne.png` |
+| 4. `menu-box-w.png`  | 5. `menu-box-c.png` | 6. `menu-box-e.png`  |
+| 7. `menu-box-sw.png` | 8. `menu-box-s.png` | 9. `menu-box-se.png` |
 
 
 
