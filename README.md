@@ -118,8 +118,8 @@ sudo grub-mkconfig -o /boot/grub/grub.cfg
 
 ## Styled Boxes
 
-| Block          | Block      | Block          |
-| ---------------| ---------- | -------------- |
-| Northwest (nw) | North (n)  | Northeast (ne) |
-| West (w)       | Center (c) | East (e)       |
-| Southwest (sw) | South (s)  | Southeast (se) |
+| Region            | Region        | Region             |
+| ----------------- | ------------- | ------------------ |
+| 1. Northwest (nw) | 2. North (n)  | 3. Northeast (ne)  |
+| 4. West (w)       | 5. Center (c) | 6. East (e)        |
+| 7. Southwest (sw) | 8. South (s)  | 9. Southeast (se)  |
