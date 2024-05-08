@@ -63,7 +63,7 @@ mod_fetch () {
 	local tmp_file_path="${tmp_dir_path}/${THE_TEMP_DOWNLOAD_BACKGROUND_NAME}"
 
 
-	local target_dir_path="${THE_MAIN_ASSET_DIR_PATH}"
+	local target_dir_path="${THE_MAIN_OVERLAY_DIR_PATH}"
 	local target_file_path="${target_dir_path}/${THE_TARGET_DOWNLOAD_BACKGROUND_NAME}"
 
 
@@ -119,7 +119,7 @@ mod_apply () {
 	util_error_echo
 
 
-	local source_file_path="${THE_MAIN_ASSET_DIR_PATH}/${THE_TARGET_DOWNLOAD_BACKGROUND_NAME}"
+	local source_file_path="${THE_MAIN_OVERLAY_DIR_PATH}/${THE_TARGET_DOWNLOAD_BACKGROUND_NAME}"
 	local target_file_path="${THE_GRUB_THEME_PACKAGE_DIR_PATH}/${THE_TARGET_DOWNLOAD_BACKGROUND_NAME}"
 
 	#util_error_echo "source_file_path=${source_file_path}"

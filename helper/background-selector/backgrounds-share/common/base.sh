@@ -121,6 +121,10 @@ base_var_init () {
 	THE_MAIN_ASSET_DIR_NAME="asset"
 	THE_MAIN_ASSET_DIR_PATH="${THE_MAIN_DIR_PATH}/${THE_MAIN_ASSET_DIR_NAME}"
 
+	THE_MAIN_OVERLAY_DIR_NAME="overlay"
+	THE_MAIN_OVERLAY_DIR_PATH="${THE_MAIN_DIR_PATH}/${THE_MAIN_OVERLAY_DIR_NAME}"
+
+
 	##
 	############################################################################
 	##
@@ -292,6 +296,10 @@ base_var_dump () {
 	util_debug_echo "THE_MAIN_ASSET_DIR_PATH=${THE_MAIN_ASSET_DIR_PATH}"
 	util_debug_echo
 
+
+	util_debug_echo "THE_MAIN_OVERLAY_DIR_NAME=${THE_MAIN_OVERLAY_DIR_NAME}"
+	util_debug_echo "THE_MAIN_OVERLAY_DIR_PATH=${THE_MAIN_OVERLAY_DIR_PATH}"
+	util_debug_echo
 
 
 
